@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f0e2c5;
+}
+/* header */
+header {
+  /* border: 1px solid #000; */
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1,
+#our-menu h1,
+#about-us h1,
+#contact-us h1 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #49281a;
+  font-size: 40px;
+}
+
+header p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px 0;
+}
+
+header a {
+  display: block;
+  background-color: #49281a;
+  color: #fff;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto 0 auto;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navigation */
+nav {
+  /* border: 1px solid #000; */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  box-shadow: 2px 2px 2px #49281a;
+  transition: 1s;
+}
+
+/* our-menu section  */
+#our-menu,
+#about-us,
+#contact-us,
+footer {
+  /* border: 1px solid #000; */
+  width: 90%;
+  margin: 0 auto 30px auto;
+  padding: 10px;
+}
+
+#our-menu h2 {
+  font-family: "Lato", sans-serif;
+  padding: 10px 0 20px 0;
+}
+
+.menu-items {
+  text-align: center;
+}
+#our-menu .card {
+  border: 1px solid #000;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+}
+
+#our-menu .card .card-img-top {
+  max-width: 100%;
+  border-radius: 10px;
+}
+#our-menu .card .card-title {
+  padding: 10px 0;
+}
+#our-menu .card .card-text {
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+#our-menu .card .price {
+  font-weight: bold;
+  font-style: italic;
+}
+#our-menu .card a {
+  display: block;
+  background-color: #49281a;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* about-us section */
+#about-us p,
+#contact-us p,
+footer {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 10px 0;
+}
+
+#contact-us form {
+  font-family: "Lato", sans-serif;
+  border: 1px solid #000;
+  width: 50%;
+}
+
+#contact-us form div {
+  padding: 10px;
+  /* background-color: aqua; */
+  margin-bottom: 10px;
+}
+
+.form-label {
+  /* background-color: aqu a; */
+  width: 25%;
+  padding: 10px 0;
+  display: inline-block;
+  /* text-align: right; */
+}
+.form-control {
+  /* background-color: aqua; */
+  width: 70%;
+  padding: 10px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.btn {
+  background-color: #49281a;
+  color: #fff;
+  display: block;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* footer section */
+footer p {
+  text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+}
