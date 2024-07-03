@@ -3,10 +3,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* background-color: #f0e2c5;   */
+}
+
+body,
+.form-control {
   background-color: #f0e2c5;
+}
+html,
+header {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 /* header */
 header {
+  background: url(images/bg-img3.png) top left no-repeat,
+    url(images/bg-img1.png) top right no-repeat;
+  background-size: contain, contain;
   /* border: 1px solid #000; */
   width: 90%;
   margin: 50px auto;
@@ -135,7 +149,7 @@ footer {
 
 #contact-us form {
   font-family: "Lato", sans-serif;
-  border: 1px solid #000;
+  /* border: 1px solid #000;  */
   width: 50%;
 }
 
@@ -176,7 +190,13 @@ footer p {
   text-align: center;
 }
 
-footer a{
-    text-decoration: none;
-    color: #000;
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.custom-hr {
+  border: none; /* Remove default border */
+  border-top: 1px solid #000; /* Add a custom border */
+  margin: 20px 0;
 }
